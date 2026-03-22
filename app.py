@@ -64,8 +64,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Dashboard Button
     web_url = f"https://{request.host}/?id={user_id}" if request.host else "Deploy first to see link"
     keyboard = [
-        [InlineKeyboardButton("📱 Open Dashboard", url=f"https://your-app-name.onrender.com/?id={user_id}")],
-        [InlineKeyboardButton("✅ Join Channel", url=f"https://t.me/{CH_ID.replace('@','')}")]
+   InlineKeyboardButton("📱 Open Dashboard", url=f"https://cash-bot-69mn.onrender.com/?id={user_id}"),
+   [InlineKeyboardButton("✅ Join Channel", url=f"https://t.me/{CH_ID.replace('@','')}")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     
